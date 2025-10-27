@@ -1,12 +1,79 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fastrack | Redefine Your Style</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>cartoons deploying web project</h1>
-    <h2>new version updated</h2>
+    <!-- Header -->
+    <header class="navbar">
+        <div class="logo">Fastrack<span>.</span></div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <button class="btn-primary">Shop Now</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Redefine Your <span>Style</span></h1>
+            <p>Explore the latest collection of watches, sunglasses, and accessories that set the trend.</p>
+            <button class="btn-primary">Explore Now</button>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section id="products" class="products">
+        <h2>Our Collection</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1507680434567-5739c80be1ac" alt="Watch">
+                <h3>Watches</h3>
+                <p>Stylish and functional, designed for the modern you.</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1580657018950-fd86d4aa9a9d" alt="Sunglasses">
+                <h3>Sunglasses</h3>
+                <p>Bold frames for every mood and moment.</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1612817159949-0b7a1a7a6cfa" alt="Accessories">
+                <h3>Accessories</h3>
+                <p>Complete your look with our sleek designs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <h2>About Fastrack</h2>
+            <p>Fastrack is a youth fashion brand known for its edgy, innovative designs. We believe in breaking boundaries and setting trends — from our iconic watches to our bold eyewear collections.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <textarea placeholder="Message" rows="4" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Fastrack Clone | Designed for Demo Purposes</p>
+    </footer>
 </body>
 </html>
