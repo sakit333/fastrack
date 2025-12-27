@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fastrack | Redefine Your Style</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
+
+    <!-- Navbar -->
     <header class="navbar">
         <div class="logo">Fastrack<span>.</span></div>
         <nav class="nav-links">
@@ -17,63 +17,73 @@
             <a href="#products">Products</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
-            <button class="btn-primary">Shop Now</button>
         </nav>
+        <button class="btn-primary">Shop Now</button>
     </header>
 
-    <!-- Hero Section -->
+    <!-- Hero -->
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>Redefine Your <span>Style</span></h1>
-            <p>Explore the latest collection of watches, sunglasses, and accessories that set the trend.</p>
-            <button class="btn-primary">Explore Now</button>
+            <p>Bold. Youthful. Trend-setting accessories designed to match your lifestyle.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">Explore Collection</button>
+                <button class="btn-outline">Learn More</button>
+            </div>
         </div>
     </section>
 
-    <!-- Product Showcase -->
+    <!-- Products -->
     <section id="products" class="products">
         <h2>Our Collection</h2>
         <div class="product-grid">
+
             <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1507680434567-5739c80be1ac" alt="Watch">
+                <div class="icon watch"></div>
                 <h3>Watches</h3>
-                <p>Stylish and functional, designed for the modern you.</p>
+                <p>Precision meets bold design for everyday wear.</p>
             </div>
+
             <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1580657018950-fd86d4aa9a9d" alt="Sunglasses">
+                <div class="icon glass"></div>
                 <h3>Sunglasses</h3>
-                <p>Bold frames for every mood and moment.</p>
+                <p>Modern frames crafted for attitude and comfort.</p>
             </div>
+
             <div class="product-card">
-                <img src="https://images.unsplash.com/photo-1612817159949-0b7a1a7a6cfa" alt="Accessories">
+                <div class="icon bag"></div>
                 <h3>Accessories</h3>
-                <p>Complete your look with our sleek designs.</p>
+                <p>Minimal designs that complete your look.</p>
             </div>
+
         </div>
     </section>
 
-    <!-- About Section -->
+    <!-- About -->
     <section id="about" class="about">
-        <div class="about-content">
-            <h2>About Fastrack</h2>
-            <p>Fastrack is a youth fashion brand known for its edgy, innovative designs. We believe in breaking boundaries and setting trends — from our iconic watches to our bold eyewear collections.</p>
-        </div>
+        <h2>About Fastrack</h2>
+        <p>
+            Fastrack is a youth-focused fashion brand that stands for confidence,
+            creativity, and individuality. Our designs push boundaries while
+            staying stylish and functional.
+        </p>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact -->
     <section id="contact" class="contact">
-        <h2>Contact Us</h2>
+        <h2>Get in Touch</h2>
         <form>
             <input type="text" placeholder="Your Name" required>
             <input type="email" placeholder="Email Address" required>
-            <textarea placeholder="Message" rows="4" required></textarea>
-            <button type="submit" class="btn-primary">Send Message</button>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button class="btn-primary" type="submit">Send Message</button>
         </form>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>© 2025 Fastrack Clone | Designed for Demo Purposes</p>
+        <p>© 2025 Fastrack Clone | Modern UI Demo</p>
     </footer>
+
 </body>
 </html>
