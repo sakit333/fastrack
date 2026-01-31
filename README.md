@@ -1,4 +1,17 @@
-## To Run mvn build
+#Procedure
+- Install java
+- Install maven
+- Install tomcat
+- Pull the source code 
+## Execute shell file
+- Go inside the project
+build
 ```bash
-mvn -s settings.xml clean deploy
+cd fastrack
 ```
+- Execute Shell File
+```bash
+bash deploy_web.sh
+```
+---
+*script done by sak_shetty*
