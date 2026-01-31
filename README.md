@@ -1,4 +1,4 @@
-#Procedure
+# Procedure to Deploy 2 Tier project
 - Install java
 - Install maven
 - Install tomcat
